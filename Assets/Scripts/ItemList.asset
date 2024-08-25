@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6034610a06bfff4f9b4ceadf03986b8, type: 3}
+  m_Name: ItemList
+  m_EditorClassIdentifier: 
+  items:
+    _serializedList:
+    - Key: Cube
+      Value:
+        category: 0
+        itemPrefab: {fileID: 3114112883559526690, guid: 301cfd15806684449880ad52ae8d6156,
+          type: 3}
+        itemUI: {fileID: 1268388788, guid: 14838d594ec79cb4fae9d05606b6f204, type: 3}
+    - Key: Sphere
+      Value:
+        category: 1
+        itemPrefab: {fileID: 9187116262964183779, guid: 0980b60b34b67a6438331886a50bbf62,
+          type: 3}
+        itemUI: {fileID: 735619574, guid: 14838d594ec79cb4fae9d05606b6f204, type: 3}
+    - Key: Cylinder
+      Value:
+        category: 2
+        itemPrefab: {fileID: 3305640778282581814, guid: 8b7d7ebf89733ae49aa1ed1b8936c677,
+          type: 3}
+        itemUI: {fileID: 531711867, guid: 14838d594ec79cb4fae9d05606b6f204, type: 3}
