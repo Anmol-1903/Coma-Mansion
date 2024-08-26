@@ -12,7 +12,6 @@ public class Items : ScriptableObject
 public class Item
 {
     public CategoryEnum category;
-    public GameObject itemPrefab;
     public Sprite itemUI;
 }
 

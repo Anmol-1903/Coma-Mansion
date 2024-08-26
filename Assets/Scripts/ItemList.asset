@@ -14,21 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items:
     _serializedList:
-    - Key: Cube
+    - Key: Plant
       Value:
         category: 0
-        itemPrefab: {fileID: 3114112883559526690, guid: 301cfd15806684449880ad52ae8d6156,
-          type: 3}
-        itemUI: {fileID: 1268388788, guid: 14838d594ec79cb4fae9d05606b6f204, type: 3}
-    - Key: Sphere
+        itemUI: {fileID: 21300000, guid: fa75680f7d167cc43b831b6789a6e615, type: 3}
+    - Key: Bookshelf
       Value:
         category: 1
-        itemPrefab: {fileID: 9187116262964183779, guid: 0980b60b34b67a6438331886a50bbf62,
-          type: 3}
-        itemUI: {fileID: 735619574, guid: 14838d594ec79cb4fae9d05606b6f204, type: 3}
-    - Key: Cylinder
+        itemUI: {fileID: 21300000, guid: a27f880cacb6c214b9f5483d8aa04df9, type: 3}
+    - Key: Sofa
       Value:
         category: 2
-        itemPrefab: {fileID: 3305640778282581814, guid: 8b7d7ebf89733ae49aa1ed1b8936c677,
-          type: 3}
-        itemUI: {fileID: 531711867, guid: 14838d594ec79cb4fae9d05606b6f204, type: 3}
+        itemUI: {fileID: 21300000, guid: c5796ee633faf41468dbaa1cb10f5592, type: 3}
