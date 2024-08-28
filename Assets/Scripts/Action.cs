@@ -19,7 +19,9 @@ public class Action : MonoBehaviour
                     if(item != null)
                     {
                         if (Inventory.Instance.CanPickup)
+                        {
                             item.PickedUp();
+                        }
                     }
                 }
             }

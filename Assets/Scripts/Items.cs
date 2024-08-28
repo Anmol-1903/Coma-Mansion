@@ -11,11 +11,5 @@ public class Items : ScriptableObject
 [System.Serializable]
 public class Item
 {
-    public CategoryEnum category;
     public Sprite itemUI;
-}
-
-public enum CategoryEnum
-{
-    a, b, c
 }
