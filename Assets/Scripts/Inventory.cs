@@ -46,8 +46,9 @@ public class Inventory : MonoBehaviour
         canPickup = (inventoryIndex >= inventorySize) ? false : true;
     }
     public bool CanPickup { get { return canPickup; } }
-    public void PutInInventory(string itemName)
+    public void PutInInventory(GameObject pickedItem)
     {
+        Interactable interactable = pickedItem.GetComponentInChildren<Interactable>();
         if (!canPickup)
         {
             Debug.Log("Inventory Limit Reach");
@@ -57,15 +58,15 @@ public class Inventory : MonoBehaviour
         else
         {
             ItemUIs[inventoryIndex].enabled = true;
-            ItemUIs[inventoryIndex].name = itemName;
+            ItemUIs[inventoryIndex].name = interactable.GetName();
 
-            if (ItemList.items.TryGetValue(itemName, out var item))
+            if (ItemList.items.TryGetValue(interactable.GetName(), out var item))
             {
-                ItemUIs[inventoryIndex].sprite = item.itemUI;
+                ItemUIs[inventoryIndex].sprite = interactable.GetSprite();
             }
             inventoryIndex++;
 
-            dictionaryValues[GetIndex(itemName)]++;
+            dictionaryValues[GetIndex(interactable.GetName())]++;
 
             CheckGroupOf3();
         }

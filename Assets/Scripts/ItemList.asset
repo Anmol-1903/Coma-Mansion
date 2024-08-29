@@ -16,13 +16,19 @@ MonoBehaviour:
     _serializedList:
     - Key: Plant
       Value:
-        category: 0
+        itemUI: {fileID: 21300000, guid: fa75680f7d167cc43b831b6789a6e615, type: 3}
+    - Key: Candle
+      Value:
+        itemUI: {fileID: 21300000, guid: fa75680f7d167cc43b831b6789a6e615, type: 3}
+    - Key: Chair
+      Value:
+        itemUI: {fileID: 21300000, guid: fa75680f7d167cc43b831b6789a6e615, type: 3}
+    - Key: Fireplace
+      Value:
         itemUI: {fileID: 21300000, guid: fa75680f7d167cc43b831b6789a6e615, type: 3}
     - Key: Bookshelf
       Value:
-        category: 1
         itemUI: {fileID: 21300000, guid: a27f880cacb6c214b9f5483d8aa04df9, type: 3}
-    - Key: Sofa
+    - Key: Table
       Value:
-        category: 2
         itemUI: {fileID: 21300000, guid: c5796ee633faf41468dbaa1cb10f5592, type: 3}
