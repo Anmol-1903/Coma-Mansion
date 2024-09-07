@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3570498215847170125}
   - component: {fileID: 7669234443630519558}
   - component: {fileID: 124631393872515349}
-  - component: {fileID: 4112503161576089703}
+  - component: {fileID: 3346947006545337732}
   m_Layer: 0
   m_Name: Bookshelf 1
   m_TagString: Item
@@ -107,7 +107,7 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &4112503161576089703
+--- !u!114 &3346947006545337732
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
